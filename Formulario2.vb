@@ -1,56 +1,45 @@
 ﻿Imports System.Drawing.Drawing2D
+Imports System.Security.Cryptography.X509Certificates
 
 Public Class Formulario2
 
     Private Sub btnResultado_Click(sender As Object, e As EventArgs) Handles btnResultado.Click
         Dim numero1, numero2, resultado As Double
-        Dim operacion As String
-        Dim arrOperaciones() As String = {"SUMA", "RESTA", "PRODUCTO", "DIVISION"}
-        Dim operacionValida As Boolean = False
-
         numero1 = CDbl(txtNumero1.Text)
         numero2 = CDbl(txtNumero2.Text)
+        labelNumero1.Text = txtNumero1.Text
+        labelNumero2.Text = txtNumero2.Text
 
-        operacion = (txtOperacion.Text).ToUpper()
-
-        For Each op In arrOperaciones
-            If operacion = op Then
-                operacionValida = True
+        If radioBtnSuma.Checked Then
+            labelOperacion.Text = "+"
+            resultado = numero1 + numero2
+        ElseIf radioBtnResta.Checked Then
+            labelOperacion.Text = "-"
+            resultado = numero1 - numero2
+        ElseIf radioBtnProducto.Checked Then
+            labelOperacion.Text = "x"
+            resultado = numero1 * numero2
+        ElseIf radioBtnDivision.Checked Then
+            labelOperacion.Text = "÷"
+            If numero1 = 0 Then
+                MsgBox("No se puede dividir entre 0", MsgBoxStyle.Exclamation)
+            Else
+                resultado = numero1 / numero2
             End If
-        Next
-
-        If operacionValida Then
-            Select Case operacion
-                Case "SUMA"
-                    labelOperacion.Text = "+"
-                    resultado = numero1 + numero2
-                Case "RESTA"
-                    labelOperacion.Text = "-"
-                    resultado = numero1 - numero2
-                Case "PRODUCTO"
-                    labelOperacion.Text = "x"
-                    resultado = numero1 * numero2
-                Case "DIVISION"
-                    labelOperacion.Text = "÷"
-                    If numero1 = 0 Then
-                        MsgBox("Error al intentar dividir por cero.", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
-                    Else
-                        resultado = numero1 / numero2
-                    End If
-            End Select
-        Else
-            MsgBox("La operacion introducida no es valida.", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
         End If
 
-        labelNumero1.Text = CStr(numero1)
-        labelNumero2.Text = CStr(numero2)
+        txtResultado.Text = CStr(resultado)
 
-        txtResultado.Text = resultado
 
     End Sub
 
     Private Sub volver_Click(sender As Object, e As EventArgs) Handles volver.Click
-        Close()
+        Dim formulario1 As New Formulario1()
+        formulario1.Show()
+        Me.Hide()
     End Sub
 
+    Private Sub Formulario2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

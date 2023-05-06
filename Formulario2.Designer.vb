@@ -33,127 +33,207 @@ Partial Class Formulario2
         Me.labelNumero1 = New System.Windows.Forms.Label()
         Me.labelOperacion = New System.Windows.Forms.Label()
         Me.labelNumero2 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.txtOperacion = New System.Windows.Forms.TextBox()
+        Me.operacionesGB = New System.Windows.Forms.GroupBox()
+        Me.radioBtnDivision = New System.Windows.Forms.RadioButton()
+        Me.radioBtnProducto = New System.Windows.Forms.RadioButton()
+        Me.radioBtnResta = New System.Windows.Forms.RadioButton()
+        Me.radioBtnSuma = New System.Windows.Forms.RadioButton()
+        Me.operacionesGB.SuspendLayout()
         Me.SuspendLayout()
         '
         'volver
         '
-        Me.volver.Location = New System.Drawing.Point(211, 346)
+        Me.volver.BackColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.volver.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.volver.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.volver.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.volver.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.volver.Location = New System.Drawing.Point(250, 429)
+        Me.volver.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.volver.Name = "volver"
-        Me.volver.Size = New System.Drawing.Size(124, 42)
+        Me.volver.Size = New System.Drawing.Size(166, 52)
         Me.volver.TabIndex = 0
         Me.volver.Text = "Volver al Inicio"
-        Me.volver.UseVisualStyleBackColor = True
+        Me.volver.UseVisualStyleBackColor = False
         '
         'txtNumero1
         '
-        Me.txtNumero1.Location = New System.Drawing.Point(137, 65)
+        Me.txtNumero1.Location = New System.Drawing.Point(131, 88)
+        Me.txtNumero1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.txtNumero1.Name = "txtNumero1"
-        Me.txtNumero1.Size = New System.Drawing.Size(100, 20)
+        Me.txtNumero1.Size = New System.Drawing.Size(132, 24)
         Me.txtNumero1.TabIndex = 1
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(75, 68)
+        Me.Label1.Location = New System.Drawing.Point(128, 67)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(56, 13)
+        Me.Label1.Size = New System.Drawing.Size(89, 17)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Numero 1:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(75, 106)
+        Me.Label2.Location = New System.Drawing.Point(128, 130)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(56, 13)
+        Me.Label2.Size = New System.Drawing.Size(89, 17)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Numero 2:"
         '
         'txtNumero2
         '
-        Me.txtNumero2.Location = New System.Drawing.Point(137, 103)
+        Me.txtNumero2.Location = New System.Drawing.Point(131, 151)
+        Me.txtNumero2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.txtNumero2.Name = "txtNumero2"
-        Me.txtNumero2.Size = New System.Drawing.Size(100, 20)
+        Me.txtNumero2.Size = New System.Drawing.Size(132, 24)
         Me.txtNumero2.TabIndex = 3
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(442, 163)
+        Me.Label3.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(492, 290)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(58, 13)
+        Me.Label3.Size = New System.Drawing.Size(98, 17)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Resultado:"
         '
         'txtResultado
         '
-        Me.txtResultado.Location = New System.Drawing.Point(504, 160)
+        Me.txtResultado.Font = New System.Drawing.Font("Fira Code", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResultado.Location = New System.Drawing.Point(495, 311)
+        Me.txtResultado.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.txtResultado.Name = "txtResultado"
-        Me.txtResultado.Size = New System.Drawing.Size(100, 20)
+        Me.txtResultado.Size = New System.Drawing.Size(286, 31)
         Me.txtResultado.TabIndex = 5
         '
         'btnResultado
         '
-        Me.btnResultado.Location = New System.Drawing.Point(358, 346)
+        Me.btnResultado.BackColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.btnResultado.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnResultado.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.btnResultado.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnResultado.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnResultado.ForeColor = System.Drawing.SystemColors.Control
+        Me.btnResultado.Location = New System.Drawing.Point(445, 429)
+        Me.btnResultado.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.btnResultado.Name = "btnResultado"
-        Me.btnResultado.Size = New System.Drawing.Size(124, 42)
+        Me.btnResultado.Size = New System.Drawing.Size(166, 52)
         Me.btnResultado.TabIndex = 7
         Me.btnResultado.Text = "Calcular"
-        Me.btnResultado.UseVisualStyleBackColor = True
+        Me.btnResultado.UseVisualStyleBackColor = False
         '
         'labelNumero1
         '
         Me.labelNumero1.AutoSize = True
-        Me.labelNumero1.Location = New System.Drawing.Point(498, 106)
+        Me.labelNumero1.Font = New System.Drawing.Font("Fira Code", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelNumero1.Location = New System.Drawing.Point(558, 190)
+        Me.labelNumero1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.labelNumero1.Name = "labelNumero1"
-        Me.labelNumero1.Size = New System.Drawing.Size(13, 13)
+        Me.labelNumero1.Size = New System.Drawing.Size(32, 33)
         Me.labelNumero1.TabIndex = 8
         Me.labelNumero1.Text = "0"
         '
         'labelOperacion
         '
         Me.labelOperacion.AutoSize = True
-        Me.labelOperacion.Location = New System.Drawing.Point(517, 117)
+        Me.labelOperacion.Font = New System.Drawing.Font("Fira Code", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelOperacion.Location = New System.Drawing.Point(516, 223)
+        Me.labelOperacion.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.labelOperacion.Name = "labelOperacion"
-        Me.labelOperacion.Size = New System.Drawing.Size(56, 13)
+        Me.labelOperacion.Size = New System.Drawing.Size(32, 33)
         Me.labelOperacion.TabIndex = 9
-        Me.labelOperacion.Text = "Operacion"
+        Me.labelOperacion.Text = "+"
         Me.labelOperacion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'labelNumero2
         '
         Me.labelNumero2.AutoSize = True
-        Me.labelNumero2.Location = New System.Drawing.Point(498, 130)
+        Me.labelNumero2.Font = New System.Drawing.Font("Fira Code", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelNumero2.Location = New System.Drawing.Point(558, 223)
+        Me.labelNumero2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.labelNumero2.Name = "labelNumero2"
-        Me.labelNumero2.Size = New System.Drawing.Size(13, 13)
+        Me.labelNumero2.Size = New System.Drawing.Size(32, 33)
         Me.labelNumero2.TabIndex = 10
         Me.labelNumero2.Text = "0"
         '
-        'Label4
+        'operacionesGB
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(75, 167)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(249, 13)
-        Me.Label4.TabIndex = 17
-        Me.Label4.Text = "Operacion: (Escriba suma, resta, producto, division)"
+        Me.operacionesGB.Controls.Add(Me.radioBtnDivision)
+        Me.operacionesGB.Controls.Add(Me.radioBtnProducto)
+        Me.operacionesGB.Controls.Add(Me.radioBtnResta)
+        Me.operacionesGB.Controls.Add(Me.radioBtnSuma)
+        Me.operacionesGB.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.operacionesGB.ForeColor = System.Drawing.SystemColors.Control
+        Me.operacionesGB.Location = New System.Drawing.Point(104, 201)
+        Me.operacionesGB.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.operacionesGB.Name = "operacionesGB"
+        Me.operacionesGB.Padding = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.operacionesGB.Size = New System.Drawing.Size(266, 151)
+        Me.operacionesGB.TabIndex = 18
+        Me.operacionesGB.TabStop = False
+        Me.operacionesGB.Text = "Operaciones"
         '
-        'txtOperacion
+        'radioBtnDivision
         '
-        Me.txtOperacion.Location = New System.Drawing.Point(78, 183)
-        Me.txtOperacion.Name = "txtOperacion"
-        Me.txtOperacion.Size = New System.Drawing.Size(100, 20)
-        Me.txtOperacion.TabIndex = 16
+        Me.radioBtnDivision.AutoSize = True
+        Me.radioBtnDivision.Location = New System.Drawing.Point(27, 110)
+        Me.radioBtnDivision.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.radioBtnDivision.Name = "radioBtnDivision"
+        Me.radioBtnDivision.Size = New System.Drawing.Size(98, 21)
+        Me.radioBtnDivision.TabIndex = 3
+        Me.radioBtnDivision.TabStop = True
+        Me.radioBtnDivision.Text = "Division"
+        Me.radioBtnDivision.UseVisualStyleBackColor = True
+        '
+        'radioBtnProducto
+        '
+        Me.radioBtnProducto.AutoSize = True
+        Me.radioBtnProducto.Location = New System.Drawing.Point(27, 82)
+        Me.radioBtnProducto.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.radioBtnProducto.Name = "radioBtnProducto"
+        Me.radioBtnProducto.Size = New System.Drawing.Size(98, 21)
+        Me.radioBtnProducto.TabIndex = 2
+        Me.radioBtnProducto.TabStop = True
+        Me.radioBtnProducto.Text = "Producto"
+        Me.radioBtnProducto.UseVisualStyleBackColor = True
+        '
+        'radioBtnResta
+        '
+        Me.radioBtnResta.AutoSize = True
+        Me.radioBtnResta.Location = New System.Drawing.Point(27, 54)
+        Me.radioBtnResta.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.radioBtnResta.Name = "radioBtnResta"
+        Me.radioBtnResta.Size = New System.Drawing.Size(71, 21)
+        Me.radioBtnResta.TabIndex = 1
+        Me.radioBtnResta.TabStop = True
+        Me.radioBtnResta.Text = "Resta"
+        Me.radioBtnResta.UseVisualStyleBackColor = True
+        '
+        'radioBtnSuma
+        '
+        Me.radioBtnSuma.AutoSize = True
+        Me.radioBtnSuma.Location = New System.Drawing.Point(27, 25)
+        Me.radioBtnSuma.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.radioBtnSuma.Name = "radioBtnSuma"
+        Me.radioBtnSuma.Size = New System.Drawing.Size(62, 21)
+        Me.radioBtnSuma.TabIndex = 0
+        Me.radioBtnSuma.TabStop = True
+        Me.radioBtnSuma.Text = "Suma"
+        Me.radioBtnSuma.UseVisualStyleBackColor = True
         '
         'Formulario2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.txtOperacion)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(29, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(881, 560)
+        Me.Controls.Add(Me.operacionesGB)
         Me.Controls.Add(Me.labelNumero2)
         Me.Controls.Add(Me.labelOperacion)
         Me.Controls.Add(Me.labelNumero1)
@@ -165,8 +245,14 @@ Partial Class Formulario2
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtNumero1)
         Me.Controls.Add(Me.volver)
+        Me.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ForeColor = System.Drawing.SystemColors.Control
+        Me.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Name = "Formulario2"
         Me.Text = "Formulario2"
+        Me.TransparencyKey = System.Drawing.Color.Red
+        Me.operacionesGB.ResumeLayout(False)
+        Me.operacionesGB.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -183,6 +269,9 @@ Partial Class Formulario2
     Friend WithEvents labelNumero1 As Label
     Friend WithEvents labelOperacion As Label
     Friend WithEvents labelNumero2 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents txtOperacion As TextBox
+    Friend WithEvents operacionesGB As GroupBox
+    Friend WithEvents radioBtnSuma As RadioButton
+    Friend WithEvents radioBtnDivision As RadioButton
+    Friend WithEvents radioBtnProducto As RadioButton
+    Friend WithEvents radioBtnResta As RadioButton
 End Class

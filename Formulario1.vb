@@ -15,4 +15,5 @@
     Private Sub btnTerminar_Click(sender As Object, e As EventArgs) Handles btnTerminar.Click
         Close()
     End Sub
+
 End Class
