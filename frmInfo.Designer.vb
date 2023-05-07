@@ -32,68 +32,82 @@ Partial Class frmInfo
         '
         'txtInfoOut
         '
-        Me.txtInfoOut.Location = New System.Drawing.Point(203, 57)
+        Me.txtInfoOut.Location = New System.Drawing.Point(142, 108)
+        Me.txtInfoOut.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.txtInfoOut.Multiline = True
         Me.txtInfoOut.Name = "txtInfoOut"
         Me.txtInfoOut.ReadOnly = True
-        Me.txtInfoOut.Size = New System.Drawing.Size(200, 54)
+        Me.txtInfoOut.Size = New System.Drawing.Size(297, 126)
         Me.txtInfoOut.TabIndex = 5
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(68, 60)
+        Me.Label1.Location = New System.Drawing.Point(139, 87)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(111, 13)
+        Me.Label1.Size = New System.Drawing.Size(206, 17)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Información registrada"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(68, 153)
+        Me.Label2.Location = New System.Drawing.Point(139, 253)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(75, 13)
+        Me.Label2.Size = New System.Drawing.Size(134, 17)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "Última captura"
         '
         'txtInfUltima
         '
-        Me.txtInfUltima.Location = New System.Drawing.Point(203, 153)
+        Me.txtInfUltima.Location = New System.Drawing.Point(142, 274)
+        Me.txtInfUltima.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.txtInfUltima.Name = "txtInfUltima"
         Me.txtInfUltima.ReadOnly = True
-        Me.txtInfUltima.Size = New System.Drawing.Size(120, 20)
+        Me.txtInfUltima.Size = New System.Drawing.Size(297, 24)
         Me.txtInfUltima.TabIndex = 8
         '
         'cmdVolver
         '
-        Me.cmdVolver.Location = New System.Drawing.Point(71, 221)
+        Me.cmdVolver.BackColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.cmdVolver.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.cmdVolver.Location = New System.Drawing.Point(142, 341)
+        Me.cmdVolver.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.cmdVolver.Name = "cmdVolver"
-        Me.cmdVolver.Size = New System.Drawing.Size(104, 45)
+        Me.cmdVolver.Size = New System.Drawing.Size(138, 57)
         Me.cmdVolver.TabIndex = 9
         Me.cmdVolver.Text = "Volver"
-        Me.cmdVolver.UseVisualStyleBackColor = True
+        Me.cmdVolver.UseVisualStyleBackColor = False
         '
         'cmdTerminar
         '
-        Me.cmdTerminar.Location = New System.Drawing.Point(212, 221)
+        Me.cmdTerminar.BackColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.cmdTerminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.cmdTerminar.Location = New System.Drawing.Point(290, 341)
+        Me.cmdTerminar.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.cmdTerminar.Name = "cmdTerminar"
-        Me.cmdTerminar.Size = New System.Drawing.Size(111, 46)
+        Me.cmdTerminar.Size = New System.Drawing.Size(149, 57)
         Me.cmdTerminar.TabIndex = 10
         Me.cmdTerminar.Text = "Terminar"
-        Me.cmdTerminar.UseVisualStyleBackColor = True
+        Me.cmdTerminar.UseVisualStyleBackColor = False
         '
         'frmInfo
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(29, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(586, 554)
         Me.Controls.Add(Me.cmdTerminar)
         Me.Controls.Add(Me.cmdVolver)
         Me.Controls.Add(Me.txtInfUltima)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtInfoOut)
+        Me.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ForeColor = System.Drawing.Color.White
+        Me.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Name = "frmInfo"
         Me.Text = "frmInfo"
         Me.ResumeLayout(False)

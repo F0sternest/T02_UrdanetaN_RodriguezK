@@ -34,78 +34,103 @@ Partial Class Formulario3
         '
         'cmdGuardar
         '
-        Me.cmdGuardar.Location = New System.Drawing.Point(38, 241)
+        Me.cmdGuardar.BackColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.cmdGuardar.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.cmdGuardar.FlatAppearance.BorderSize = 2
+        Me.cmdGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdGuardar.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdGuardar.Location = New System.Drawing.Point(132, 300)
+        Me.cmdGuardar.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.cmdGuardar.Name = "cmdGuardar"
-        Me.cmdGuardar.Size = New System.Drawing.Size(66, 35)
+        Me.cmdGuardar.Size = New System.Drawing.Size(200, 60)
         Me.cmdGuardar.TabIndex = 0
         Me.cmdGuardar.Text = "Guardar"
-        Me.cmdGuardar.UseVisualStyleBackColor = True
+        Me.cmdGuardar.UseVisualStyleBackColor = False
         '
         'cmdVisual
         '
-        Me.cmdVisual.Location = New System.Drawing.Point(148, 241)
+        Me.cmdVisual.BackColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.cmdVisual.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.cmdVisual.FlatAppearance.BorderSize = 2
+        Me.cmdVisual.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmdVisual.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdVisual.Location = New System.Drawing.Point(368, 300)
+        Me.cmdVisual.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.cmdVisual.Name = "cmdVisual"
-        Me.cmdVisual.Size = New System.Drawing.Size(85, 34)
+        Me.cmdVisual.Size = New System.Drawing.Size(200, 60)
         Me.cmdVisual.TabIndex = 1
         Me.cmdVisual.Text = "Ver información"
-        Me.cmdVisual.UseVisualStyleBackColor = True
+        Me.cmdVisual.UseVisualStyleBackColor = False
         '
         'cmdTerminar
         '
-        Me.cmdTerminar.Location = New System.Drawing.Point(276, 236)
+        Me.cmdTerminar.BackColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.cmdTerminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.cmdTerminar.Location = New System.Drawing.Point(368, 382)
+        Me.cmdTerminar.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.cmdTerminar.Name = "cmdTerminar"
-        Me.cmdTerminar.Size = New System.Drawing.Size(94, 39)
+        Me.cmdTerminar.Size = New System.Drawing.Size(200, 60)
         Me.cmdTerminar.TabIndex = 2
         Me.cmdTerminar.Text = "Terminar"
-        Me.cmdTerminar.UseVisualStyleBackColor = True
+        Me.cmdTerminar.UseVisualStyleBackColor = False
         '
         'cmdVolver
         '
-        Me.cmdVolver.Location = New System.Drawing.Point(396, 241)
+        Me.cmdVolver.BackColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.cmdVolver.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.cmdVolver.Location = New System.Drawing.Point(132, 382)
+        Me.cmdVolver.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.cmdVolver.Name = "cmdVolver"
-        Me.cmdVolver.Size = New System.Drawing.Size(129, 54)
+        Me.cmdVolver.Size = New System.Drawing.Size(200, 60)
         Me.cmdVolver.TabIndex = 3
-        Me.cmdVolver.Text = "Volver al inicio"
-        Me.cmdVolver.UseVisualStyleBackColor = True
+        Me.cmdVolver.Text = "< Volver al inicio"
+        Me.cmdVolver.UseVisualStyleBackColor = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(60, 46)
+        Me.Label1.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(263, 101)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(43, 13)
+        Me.Label1.Size = New System.Drawing.Size(71, 17)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Usuario"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(65, 97)
+        Me.Label2.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(263, 178)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(61, 13)
+        Me.Label2.Size = New System.Drawing.Size(98, 17)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Contraseña"
         '
         'txtUserIn
         '
-        Me.txtUserIn.Location = New System.Drawing.Point(145, 49)
+        Me.txtUserIn.Location = New System.Drawing.Point(266, 122)
+        Me.txtUserIn.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.txtUserIn.Name = "txtUserIn"
-        Me.txtUserIn.Size = New System.Drawing.Size(131, 20)
+        Me.txtUserIn.Size = New System.Drawing.Size(173, 24)
         Me.txtUserIn.TabIndex = 6
         '
         'txtContrIn
         '
-        Me.txtContrIn.Location = New System.Drawing.Point(152, 97)
+        Me.txtContrIn.Location = New System.Drawing.Point(266, 199)
+        Me.txtContrIn.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.txtContrIn.Name = "txtContrIn"
         Me.txtContrIn.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtContrIn.Size = New System.Drawing.Size(133, 20)
+        Me.txtContrIn.Size = New System.Drawing.Size(175, 24)
         Me.txtContrIn.TabIndex = 7
         '
         'Formulario3
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(29, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(705, 554)
         Me.Controls.Add(Me.txtContrIn)
         Me.Controls.Add(Me.txtUserIn)
         Me.Controls.Add(Me.Label2)
@@ -114,6 +139,9 @@ Partial Class Formulario3
         Me.Controls.Add(Me.cmdTerminar)
         Me.Controls.Add(Me.cmdVisual)
         Me.Controls.Add(Me.cmdGuardar)
+        Me.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ForeColor = System.Drawing.SystemColors.Control
+        Me.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Name = "Formulario3"
         Me.Text = "Introducción a VB.Net"
         Me.ResumeLayout(False)

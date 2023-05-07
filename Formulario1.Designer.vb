@@ -37,7 +37,7 @@ Partial Class Formulario1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(59, 30)
         Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
@@ -85,9 +85,9 @@ Partial Class Formulario1
         Me.Label5.Location = New System.Drawing.Point(59, 170)
         Me.Label5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(188, 17)
+        Me.Label5.Size = New System.Drawing.Size(278, 17)
         Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Urdaneta, Natasha - "
+        Me.Label5.Text = "Urdaneta, Natasha - E-8-171454"
         '
         'Label6
         '

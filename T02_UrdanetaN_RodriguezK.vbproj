@@ -121,6 +121,9 @@
     <EmbeddedResource Include="Formulario2.resx">
       <DependentUpon>Formulario2.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formulario3.resx">
+      <DependentUpon>Formulario3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInfo.resx">
       <DependentUpon>frmInfo.vb</DependentUpon>
     </EmbeddedResource>

@@ -1,5 +1,5 @@
 ﻿Public Class Formulario3
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles cmdTerminar.Click
+    Private Sub cmdTerminar_Click(sender As Object, e As EventArgs) Handles cmdTerminar.Click
         Close()
     End Sub
 
@@ -20,5 +20,7 @@
         txtUserIn.Text = ""
         txtContrIn.Text = ""
         txtUserIn.Focus()
+        MsgBox("Datos guardados con exito", MsgBoxStyle.Information)
+
     End Sub
 End Class
