@@ -1,0 +1,16 @@
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\bin\Debug\T02_UrdanetaN_RodriguezK.exe.config
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\bin\Debug\T02_UrdanetaN_RodriguezK.exe
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\bin\Debug\T02_UrdanetaN_RodriguezK.pdb
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\bin\Debug\T02_UrdanetaN_RodriguezK.xml
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\obj\Debug\T02_UrdanetaN_RodriguezK.vbproj.AssemblyReference.cache
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\obj\Debug\T02_UrdanetaN_RodriguezK.vbproj.SuggestedBindingRedirects.cache
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\obj\Debug\T02_UrdanetaN_RodriguezK.Formulario1.resources
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\obj\Debug\T02_UrdanetaN_RodriguezK.frmCalculos.resources
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\obj\Debug\T02_UrdanetaN_RodriguezK.Resources.resources
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\obj\Debug\T02_UrdanetaN_RodriguezK.vbproj.GenerateResource.cache
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\obj\Debug\T02_UrdanetaN_RodriguezK.vbproj.CoreCompileInputs.cache
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\obj\Debug\T02_UrdanetaN_RodriguezK.exe
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\obj\Debug\T02_UrdanetaN_RodriguezK.xml
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\obj\Debug\T02_UrdanetaN_RodriguezK.pdb
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\obj\Debug\T02_UrdanetaN_RodriguezK.Formulario3.resources
+C:\Users\natas\OneDrive\Escritorio\HPA III\Taller 2\T02_UrdanetaN_RodriguezK\obj\Debug\T02_UrdanetaN_RodriguezK.frmInfo.resources
