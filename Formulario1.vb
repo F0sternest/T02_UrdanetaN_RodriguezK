@@ -7,7 +7,7 @@
     End Sub
 
     Private Sub btnTexto_Click(sender As Object, e As EventArgs) Handles btnTexto.Click
-        Dim formulario3 As New Formulario2()
+        Dim formulario3 As New Formulario3()
         formulario3.Show()
         Me.Hide()
     End Sub
