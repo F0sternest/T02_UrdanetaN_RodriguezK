@@ -5,8 +5,12 @@ Public Class Formulario2
 
     Private Sub btnResultado_Click(sender As Object, e As EventArgs) Handles btnResultado.Click
         Dim numero1, numero2, resultado As Double
-        numero1 = CDbl(txtNumero1.Text)
-        numero2 = CDbl(txtNumero2.Text)
+        If txtNumero1.Text = "" And txtNumero2.Text = "" Then
+            MsgBox("Porfavor introduzca numeros", MsgBoxStyle.Exclamation)
+        Else
+            numero1 = CDbl(txtNumero1.Text)
+            numero2 = CDbl(txtNumero2.Text)
+        End If
         labelNumero1.Text = txtNumero1.Text
         labelNumero2.Text = txtNumero2.Text
 
@@ -39,7 +43,12 @@ Public Class Formulario2
         Me.Hide()
     End Sub
 
-    Private Sub Formulario2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub btnLimpiar_Click(sender As Object, e As EventArgs) Handles btnLimpiar.Click
+        labelNumero1.Text = ""
+        labelNumero2.Text = ""
+        txtNumero1.Text = ""
+        txtNumero2.Text = ""
+        txtResultado.Text = ""
+        labelOperacion.Text = ""
     End Sub
 End Class

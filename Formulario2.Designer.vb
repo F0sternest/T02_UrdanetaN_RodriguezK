@@ -38,6 +38,7 @@ Partial Class Formulario2
         Me.radioBtnProducto = New System.Windows.Forms.RadioButton()
         Me.radioBtnResta = New System.Windows.Forms.RadioButton()
         Me.radioBtnSuma = New System.Windows.Forms.RadioButton()
+        Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.operacionesGB.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -48,7 +49,7 @@ Partial Class Formulario2
         Me.volver.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
         Me.volver.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.volver.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.volver.Location = New System.Drawing.Point(250, 429)
+        Me.volver.Location = New System.Drawing.Point(170, 424)
         Me.volver.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.volver.Name = "volver"
         Me.volver.Size = New System.Drawing.Size(166, 52)
@@ -120,7 +121,7 @@ Partial Class Formulario2
         Me.btnResultado.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnResultado.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnResultado.ForeColor = System.Drawing.SystemColors.Control
-        Me.btnResultado.Location = New System.Drawing.Point(445, 429)
+        Me.btnResultado.Location = New System.Drawing.Point(346, 424)
         Me.btnResultado.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.btnResultado.Name = "btnResultado"
         Me.btnResultado.Size = New System.Drawing.Size(166, 52)
@@ -135,9 +136,8 @@ Partial Class Formulario2
         Me.labelNumero1.Location = New System.Drawing.Point(558, 190)
         Me.labelNumero1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.labelNumero1.Name = "labelNumero1"
-        Me.labelNumero1.Size = New System.Drawing.Size(32, 33)
+        Me.labelNumero1.Size = New System.Drawing.Size(0, 33)
         Me.labelNumero1.TabIndex = 8
-        Me.labelNumero1.Text = "0"
         '
         'labelOperacion
         '
@@ -146,9 +146,8 @@ Partial Class Formulario2
         Me.labelOperacion.Location = New System.Drawing.Point(516, 223)
         Me.labelOperacion.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.labelOperacion.Name = "labelOperacion"
-        Me.labelOperacion.Size = New System.Drawing.Size(32, 33)
+        Me.labelOperacion.Size = New System.Drawing.Size(0, 33)
         Me.labelOperacion.TabIndex = 9
-        Me.labelOperacion.Text = "+"
         Me.labelOperacion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'labelNumero2
@@ -158,9 +157,8 @@ Partial Class Formulario2
         Me.labelNumero2.Location = New System.Drawing.Point(558, 223)
         Me.labelNumero2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.labelNumero2.Name = "labelNumero2"
-        Me.labelNumero2.Size = New System.Drawing.Size(32, 33)
+        Me.labelNumero2.Size = New System.Drawing.Size(0, 33)
         Me.labelNumero2.TabIndex = 10
-        Me.labelNumero2.Text = "0"
         '
         'operacionesGB
         '
@@ -227,12 +225,29 @@ Partial Class Formulario2
         Me.radioBtnSuma.Text = "Suma"
         Me.radioBtnSuma.UseVisualStyleBackColor = True
         '
+        'btnLimpiar
+        '
+        Me.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.btnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnLimpiar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnLimpiar.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLimpiar.ForeColor = System.Drawing.SystemColors.Control
+        Me.btnLimpiar.Location = New System.Drawing.Point(522, 424)
+        Me.btnLimpiar.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.btnLimpiar.Name = "btnLimpiar"
+        Me.btnLimpiar.Size = New System.Drawing.Size(166, 52)
+        Me.btnLimpiar.TabIndex = 19
+        Me.btnLimpiar.Text = "Limpiar"
+        Me.btnLimpiar.UseVisualStyleBackColor = False
+        '
         'Formulario2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(29, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(881, 560)
+        Me.Controls.Add(Me.btnLimpiar)
         Me.Controls.Add(Me.operacionesGB)
         Me.Controls.Add(Me.labelNumero2)
         Me.Controls.Add(Me.labelOperacion)
@@ -274,4 +289,5 @@ Partial Class Formulario2
     Friend WithEvents radioBtnDivision As RadioButton
     Friend WithEvents radioBtnProducto As RadioButton
     Friend WithEvents radioBtnResta As RadioButton
+    Friend WithEvents btnLimpiar As Button
 End Class
