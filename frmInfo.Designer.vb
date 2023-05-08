@@ -46,7 +46,7 @@ Partial Class frmInfo
         Me.Label1.Location = New System.Drawing.Point(139, 87)
         Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(206, 17)
+        Me.Label1.Size = New System.Drawing.Size(149, 17)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Información registrada"
         '
@@ -56,7 +56,7 @@ Partial Class frmInfo
         Me.Label2.Location = New System.Drawing.Point(139, 253)
         Me.Label2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(134, 17)
+        Me.Label2.Size = New System.Drawing.Size(99, 17)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "Última captura"
         '
@@ -66,7 +66,7 @@ Partial Class frmInfo
         Me.txtInfUltima.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.txtInfUltima.Name = "txtInfUltima"
         Me.txtInfUltima.ReadOnly = True
-        Me.txtInfUltima.Size = New System.Drawing.Size(297, 24)
+        Me.txtInfUltima.Size = New System.Drawing.Size(297, 23)
         Me.txtInfUltima.TabIndex = 8
         '
         'cmdVolver
@@ -105,11 +105,11 @@ Partial Class frmInfo
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtInfoOut)
-        Me.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForeColor = System.Drawing.Color.White
         Me.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Name = "frmInfo"
-        Me.Text = "frmInfo"
+        Me.Text = "Manejo de textos"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

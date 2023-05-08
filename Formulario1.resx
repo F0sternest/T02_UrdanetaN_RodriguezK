@@ -117,4 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Desarrollar una aplicación donde se manejen cálculos matemáticos básicos, a través de la captura de 
+dos números y definir la operación que se realiza. Además, capturar nombre y contraseña, guardarlos
+y visualizarlos. Se debe mostrar un diseño agradable al usuario.</value>
+  </data>
 </root>

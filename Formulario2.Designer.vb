@@ -48,7 +48,7 @@ Partial Class Formulario2
         Me.volver.Cursor = System.Windows.Forms.Cursors.Hand
         Me.volver.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
         Me.volver.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.volver.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.volver.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.volver.Location = New System.Drawing.Point(170, 424)
         Me.volver.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.volver.Name = "volver"
@@ -62,7 +62,7 @@ Partial Class Formulario2
         Me.txtNumero1.Location = New System.Drawing.Point(131, 88)
         Me.txtNumero1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.txtNumero1.Name = "txtNumero1"
-        Me.txtNumero1.Size = New System.Drawing.Size(132, 24)
+        Me.txtNumero1.Size = New System.Drawing.Size(132, 23)
         Me.txtNumero1.TabIndex = 1
         '
         'Label1
@@ -71,7 +71,7 @@ Partial Class Formulario2
         Me.Label1.Location = New System.Drawing.Point(128, 67)
         Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(89, 17)
+        Me.Label1.Size = New System.Drawing.Size(74, 17)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Numero 1:"
         '
@@ -81,7 +81,7 @@ Partial Class Formulario2
         Me.Label2.Location = New System.Drawing.Point(128, 130)
         Me.Label2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(89, 17)
+        Me.Label2.Size = New System.Drawing.Size(74, 17)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Numero 2:"
         '
@@ -90,27 +90,27 @@ Partial Class Formulario2
         Me.txtNumero2.Location = New System.Drawing.Point(131, 151)
         Me.txtNumero2.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.txtNumero2.Name = "txtNumero2"
-        Me.txtNumero2.Size = New System.Drawing.Size(132, 24)
+        Me.txtNumero2.Size = New System.Drawing.Size(132, 23)
         Me.txtNumero2.TabIndex = 3
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(492, 290)
         Me.Label3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(98, 17)
+        Me.Label3.Size = New System.Drawing.Size(86, 17)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Resultado:"
         '
         'txtResultado
         '
-        Me.txtResultado.Font = New System.Drawing.Font("Fira Code", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResultado.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtResultado.Location = New System.Drawing.Point(495, 311)
         Me.txtResultado.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.txtResultado.Name = "txtResultado"
-        Me.txtResultado.Size = New System.Drawing.Size(286, 31)
+        Me.txtResultado.Size = New System.Drawing.Size(286, 29)
         Me.txtResultado.TabIndex = 5
         '
         'btnResultado
@@ -119,7 +119,7 @@ Partial Class Formulario2
         Me.btnResultado.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnResultado.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
         Me.btnResultado.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnResultado.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnResultado.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnResultado.ForeColor = System.Drawing.SystemColors.Control
         Me.btnResultado.Location = New System.Drawing.Point(346, 424)
         Me.btnResultado.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
@@ -132,32 +132,32 @@ Partial Class Formulario2
         'labelNumero1
         '
         Me.labelNumero1.AutoSize = True
-        Me.labelNumero1.Font = New System.Drawing.Font("Fira Code", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelNumero1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.labelNumero1.Location = New System.Drawing.Point(558, 190)
         Me.labelNumero1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.labelNumero1.Name = "labelNumero1"
-        Me.labelNumero1.Size = New System.Drawing.Size(0, 33)
+        Me.labelNumero1.Size = New System.Drawing.Size(0, 31)
         Me.labelNumero1.TabIndex = 8
         '
         'labelOperacion
         '
         Me.labelOperacion.AutoSize = True
-        Me.labelOperacion.Font = New System.Drawing.Font("Fira Code", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelOperacion.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.labelOperacion.Location = New System.Drawing.Point(516, 223)
         Me.labelOperacion.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.labelOperacion.Name = "labelOperacion"
-        Me.labelOperacion.Size = New System.Drawing.Size(0, 33)
+        Me.labelOperacion.Size = New System.Drawing.Size(0, 31)
         Me.labelOperacion.TabIndex = 9
         Me.labelOperacion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'labelNumero2
         '
         Me.labelNumero2.AutoSize = True
-        Me.labelNumero2.Font = New System.Drawing.Font("Fira Code", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelNumero2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.labelNumero2.Location = New System.Drawing.Point(558, 223)
         Me.labelNumero2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.labelNumero2.Name = "labelNumero2"
-        Me.labelNumero2.Size = New System.Drawing.Size(0, 33)
+        Me.labelNumero2.Size = New System.Drawing.Size(0, 31)
         Me.labelNumero2.TabIndex = 10
         '
         'operacionesGB
@@ -166,7 +166,7 @@ Partial Class Formulario2
         Me.operacionesGB.Controls.Add(Me.radioBtnProducto)
         Me.operacionesGB.Controls.Add(Me.radioBtnResta)
         Me.operacionesGB.Controls.Add(Me.radioBtnSuma)
-        Me.operacionesGB.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.operacionesGB.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.operacionesGB.ForeColor = System.Drawing.SystemColors.Control
         Me.operacionesGB.Location = New System.Drawing.Point(104, 201)
         Me.operacionesGB.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
@@ -183,7 +183,7 @@ Partial Class Formulario2
         Me.radioBtnDivision.Location = New System.Drawing.Point(27, 110)
         Me.radioBtnDivision.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.radioBtnDivision.Name = "radioBtnDivision"
-        Me.radioBtnDivision.Size = New System.Drawing.Size(98, 21)
+        Me.radioBtnDivision.Size = New System.Drawing.Size(75, 21)
         Me.radioBtnDivision.TabIndex = 3
         Me.radioBtnDivision.TabStop = True
         Me.radioBtnDivision.Text = "Division"
@@ -195,7 +195,7 @@ Partial Class Formulario2
         Me.radioBtnProducto.Location = New System.Drawing.Point(27, 82)
         Me.radioBtnProducto.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.radioBtnProducto.Name = "radioBtnProducto"
-        Me.radioBtnProducto.Size = New System.Drawing.Size(98, 21)
+        Me.radioBtnProducto.Size = New System.Drawing.Size(83, 21)
         Me.radioBtnProducto.TabIndex = 2
         Me.radioBtnProducto.TabStop = True
         Me.radioBtnProducto.Text = "Producto"
@@ -207,7 +207,7 @@ Partial Class Formulario2
         Me.radioBtnResta.Location = New System.Drawing.Point(27, 54)
         Me.radioBtnResta.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.radioBtnResta.Name = "radioBtnResta"
-        Me.radioBtnResta.Size = New System.Drawing.Size(71, 21)
+        Me.radioBtnResta.Size = New System.Drawing.Size(63, 21)
         Me.radioBtnResta.TabIndex = 1
         Me.radioBtnResta.TabStop = True
         Me.radioBtnResta.Text = "Resta"
@@ -231,7 +231,7 @@ Partial Class Formulario2
         Me.btnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnLimpiar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(242, Byte), Integer))
         Me.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnLimpiar.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLimpiar.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLimpiar.ForeColor = System.Drawing.SystemColors.Control
         Me.btnLimpiar.Location = New System.Drawing.Point(522, 424)
         Me.btnLimpiar.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
@@ -260,11 +260,11 @@ Partial Class Formulario2
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtNumero1)
         Me.Controls.Add(Me.volver)
-        Me.Font = New System.Drawing.Font("Fira Code", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForeColor = System.Drawing.SystemColors.Control
         Me.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Name = "Formulario2"
-        Me.Text = "Formulario2"
+        Me.Text = "Cálculos matemáticos"
         Me.TransparencyKey = System.Drawing.Color.Red
         Me.operacionesGB.ResumeLayout(False)
         Me.operacionesGB.PerformLayout()
